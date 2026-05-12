@@ -7,7 +7,6 @@ echo "Experiment 4"
 ./ns3 run --no-build "rice_farm_wsn --experiment=4 --trafficScale=800 --pktSize=1500 --simTime=120" &
 ./ns3 run --no-build "rice_farm_wsn --experiment=4 --trafficScale=800 --pktSize=1800 --simTime=120" &
 ./ns3 run --no-build "rice_farm_wsn --experiment=4 --trafficScale=800 --pktSize=2000 --simTime=120" &
-
 ./ns3 run --no-build "rice_farm_wsn --experiment=4 --trafficScale=800 --pktSize=3000  --simTime=120" &
 ./ns3 run --no-build "rice_farm_wsn --experiment=4 --trafficScale=800 --pktSize=5000  --simTime=120" & 
 ./ns3 run --no-build "rice_farm_wsn --experiment=4 --trafficScale=800 --pktSize=8000  --simTime=120" &
